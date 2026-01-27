@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class SumUntilZero {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double total = 0.0;   
+        double number;       
+        System.out.println("Enter a number:");
+        number = sc.nextDouble();
+        while (number != 0) {
+            total = total + number;
+            System.out.println("Enter a number again:");
+            number = sc.nextDouble();
+        }
+        System.out.println("Total sum = " + total);
+    }
+}
