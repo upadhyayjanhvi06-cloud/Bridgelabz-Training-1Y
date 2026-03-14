@@ -1,0 +1,4 @@
+package com.university.department.cse;
+
+public class Course {
+}

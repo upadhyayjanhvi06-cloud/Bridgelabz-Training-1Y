@@ -1,0 +1,4 @@
+package college.faculty;
+
+public class Faculty {
+}
